@@ -1,0 +1,34 @@
+{
+  "name": "ModularTestP",
+  "version": "0.3.0",
+  "main": "src/",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "logger": "sherlockholmes start"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-action-button": "^2.8.0",
+    "react-native-elements": "^0.16.0",
+    "react-native-router-flux": "3.38.0",
+    "react-native-vector-icons": "^4.4.0",
+    "react-redux": "^5.0.4",
+    "react-timestamp": "^4.2.1",
+    "redux": "^3.6.0",
+    "redux-form": "^6.6.3",
+    "redux-logger": "^3.0.1",
+    "redux-thunk": "^2.2.0",
+    "sherlockholmes": "git+ssh://bitbucket.org/dotography-code/sherlockholmes.git"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
